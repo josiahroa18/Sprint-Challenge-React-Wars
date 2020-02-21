@@ -8,6 +8,7 @@ function CardHolder(props){
             <Card body>
             <CardTitle>{props.name}</CardTitle>
             <CardText>Eye Color: {props.color}</CardText>
+            <CardText>Hair Color: {props.hair}</CardText>
             </Card>
         </Col>
     );

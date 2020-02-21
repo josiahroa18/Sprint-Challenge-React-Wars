@@ -30,7 +30,7 @@ function CardPage(props){
                     key={index}
                     name={character.name}
                     color={character.eye_color}
-                    homeworld={character.homeworld}
+                    hair={character.hair_color}
                 />
             })}
         </Container>
